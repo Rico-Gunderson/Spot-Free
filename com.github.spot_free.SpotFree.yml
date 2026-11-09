@@ -1,0 +1,41 @@
+app-id: com.github.spot_free.SpotFree
+runtime: org.freedesktop.Platform
+runtime-version: '26.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
+command: spot-free
+
+finish-args:
+  # Display & Audio
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --socket=pulseaudio
+  # Network access for Spotify Web API & audio stream downloads
+  - --share=network
+  - --share=ipc
+  # Access to Music directory and user download folder
+  - --filesystem=xdg-music
+  - --filesystem=xdg-download
+  - --talk-name=org.freedesktop.Notifications
+
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
+  env:
+    CARGO_HOME: /run/build/spot-free/cargo
+
+modules:
+  - name: spot-free
+    buildsystem: simple
+    build-commands:
+      - cargo --offline fetch --manifest-path Cargo.toml
+      - cargo --offline build --release
+      - install -Dm755 target/release/spot-free /app/bin/spot-free
+      - install -Dm644 flatpak/com.github.spot_free.SpotFree.desktop /app/share/applications/com.github.spot_free.SpotFree.desktop
+      - install -Dm644 flatpak/com.github.spot_free.SpotFree.metainfo.xml /app/share/metainfo/com.github.spot_free.SpotFree.metainfo.xml
+      - install -Dm644 flatpak/com.github.spot_free.SpotFree.svg /app/share/icons/hicolor/scalable/apps/com.github.spot_free.SpotFree.svg
+      - install -Dm644 flatpak/com.github.spot_free.SpotFree.png /app/share/icons/hicolor/256x256/apps/com.github.spot_free.SpotFree.png
+    sources:
+      - type: dir
+        path: ..

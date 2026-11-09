@@ -1,0 +1,220 @@
+{
+  "version": 2,
+  "name": "I want a spotify playlist",
+  "request": "I want a spotify playlist downloader app that connects to your spotify account and is able to download your playlists (including liked songs), or songs individually, with options to put the music in zip folders. I want it to be called spot-free, it needs to link with your spotify account safely without risking any security or account violations, similar integration to existing tools that have access to your account. I want it to be a linux flatpak first.",
+  "target": {
+    "kind": "none"
+  },
+  "stack": "Rust + egui (eframe)",
+  "status": "ready",
+  "note": "Ready: all 2 checks pass.",
+  "created_ms": 1794239781439,
+  "updated_ms": 1794257681175,
+  "checks": [
+    {
+      "round": 1,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794240745048
+    },
+    {
+      "round": 1,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1056×660).",
+      "artifacts": [
+        "checks/round-1/screenshot.png"
+      ],
+      "at_ms": 1794240746840
+    },
+    {
+      "round": 2,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794244807007
+    },
+    {
+      "round": 2,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1344×840).",
+      "artifacts": [
+        "checks/round-2/screenshot.png"
+      ],
+      "at_ms": 1794244809683
+    },
+    {
+      "round": 3,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794245917310
+    },
+    {
+      "round": 3,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1344×840).",
+      "artifacts": [
+        "checks/round-3/screenshot.png"
+      ],
+      "at_ms": 1794245919985
+    },
+    {
+      "round": 4,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794247015916
+    },
+    {
+      "round": 4,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1434×1008).",
+      "artifacts": [
+        "checks/round-4/screenshot.png"
+      ],
+      "at_ms": 1794247018742
+    },
+    {
+      "round": 5,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794251220278
+    },
+    {
+      "round": 5,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1344×840).",
+      "artifacts": [
+        "checks/round-5/screenshot.png"
+      ],
+      "at_ms": 1794251223080
+    },
+    {
+      "round": 6,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794251673746
+    },
+    {
+      "round": 6,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1344×840).",
+      "artifacts": [
+        "checks/round-6/screenshot.png"
+      ],
+      "at_ms": 1794251676470
+    },
+    {
+      "round": 7,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794252515773
+    },
+    {
+      "round": 7,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1344×840).",
+      "artifacts": [
+        "checks/round-7/screenshot.png"
+      ],
+      "at_ms": 1794252518494
+    },
+    {
+      "round": 8,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794253571362
+    },
+    {
+      "round": 8,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1434×1008).",
+      "artifacts": [
+        "checks/round-8/screenshot.png"
+      ],
+      "at_ms": 1794253574143
+    },
+    {
+      "round": 9,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794254852585
+    },
+    {
+      "round": 9,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1434×1008).",
+      "artifacts": [
+        "checks/round-9/screenshot.png"
+      ],
+      "at_ms": 1794254855362
+    },
+    {
+      "round": 10,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794257678320
+    },
+    {
+      "round": 10,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1434×1008).",
+      "artifacts": [
+        "checks/round-10/screenshot.png"
+      ],
+      "at_ms": 1794257681171
+    }
+  ],
+  "agent_session": "3e304236-61bb-4f65-bd82-6995b46edf0e",
+  "allowed_actions": [],
+  "last_reply": "I am compiling the updated Windows executable with automatic Windows audio tool provisioning, Windows Firewall/Schannel compatibility flags, and the Windows-only Administrator startup notice; I will finalize and verify the build once compilation finishes.\nI updated the Windows `.exe` version of **Spot-Free** (staying at **Version 0.5.1 Beta**) to automatically set up its required Windows audio tools in the background, apply Windows Firewall certificate compatibility settings, and fall back to your `Downloads` folder if Windows Controlled Folder Access blocks `Music`. In addition, the Windows version now shows a startup notice and banner on launch reminding you that downloads might fail if the app is not run as Administrator, while leaving the Linux Flatpak version completely unchanged.",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false
+}

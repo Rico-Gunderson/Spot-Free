@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.spot_free.SpotFree</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Spot-Free</name>
+  <summary>Safe Spotify playlist and track downloader with zip options</summary>
+  <description>
+    <p>
+      Spot-Free is a fast, native desktop application for Linux that allows you to safely connect
+      to your Spotify account and download your playlists or individual tracks.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Safe Spotify integration using official OAuth 2.0 PKCE without exposing your account password or risking bans.</li>
+      <li>Download full user playlists, your entire Liked Songs library, or individual songs.</li>
+      <li>Flexible ZIP packaging: save as direct audio files, separate ZIP archives per playlist, or one consolidated archive.</li>
+      <li>Automatic metadata tagging with album artwork and optional M3U playlist file generation.</li>
+      <li>High quality audio formats: MP3 (up to 320kbps), FLAC, M4A, and OPUS.</li>
+      <li>Built for Linux Flatpak with modern native performance.</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">com.github.spot_free.SpotFree.desktop</launchable>
+  <provides>
+    <binary>spot-free</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.5.1-beta" date="2026-11-09">
+      <description>
+        <p>Version 0.5.1 Beta release with full public playlist library pagination (all older and newer public playlists), Title Case Spot-Free branding, and updated standalone executable.</p>
+      </description>
+    </release>
+  </releases>
+</component>

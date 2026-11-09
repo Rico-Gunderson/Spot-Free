@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Spot-Free
+GenericName=Spotify Playlist & Music Downloader
+Comment=Safe Spotify playlist, liked songs, and track downloader with zip archive export
+Exec=spot-free %U
+Icon=com.github.spot_free.SpotFree
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Network;FileTransfer;
+Keywords=spotify;music;downloader;playlist;mp3;flac;zip;
+StartupNotify=true
+MimeType=x-scheme-handler/spotify;
